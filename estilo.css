@@ -1,0 +1,163 @@
+/*COMÚN A TODO EL PROYECTO*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	background-color: #DCE5FA;
+}
+
+main h1{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	color: #1A5E86;
+	font-size: 40px;
+	word-spacing: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+main{
+	width:100%; 
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color: #DCE5FA;
+}
+
+footer{
+	margin-top: 20px;
+	width: 100%
+	font-size: 15px;
+}
+
+ul {
+    margin-bottom: 10px;
+}
+
+ul li {
+   	 display: inline-block;
+}
+
+#submenu{ 
+    position:absolute;
+    display: none;
+}
+
+#submenu li {
+    display: block;
+}
+
+ul li:hover #submenu{
+    display: block;
+}
+
+#nefooter .section-title {
+    font-size: 22px;
+    color: #1A5E86;
+    position: relative;
+}
+
+#nefooter .contact-info {
+    margin: 0 0 60px 0;
+    padding:0;
+}
+
+#nefooter .contact-info li {
+    font-size: 14px;
+    list-style: none;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+
+#nefooter .contact-info li a{
+    padding-left: 10px;
+}
+
+
+/*INDEX*/
+
+h2{
+	color: #1A5E86
+}
+
+.parrafo{
+	font-size: 15px;
+	text-align: justify;
+	padding-left: 10px;
+	word-spacing: 10px;
+	line-height: 18px;
+	margin-left: 5px;
+}
+
+.textoserv{
+	padding-top: 40px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.seccionesindex{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+div h2{
+	color: #1A5E86;
+	font-size: 30px;
+	font-weight: bold;
+}
+.listaserv{
+	margin-top: 15px;
+}
+
+/*NUESTRO EQUIPO*/
+
+div h3{
+	font-size: 20px;
+	color: #1A5E86;
+	text-align: left;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+div h4{
+	font-size: 15px;
+	color: #1A5E86;
+	text-align: left;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.descripus{
+	font-size: 15px;
+	color: #1A5E86;
+	text-align: left;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	font-style: italic;
+	margin-right: 40px;
+}
+
+
+
+/*BLOG/ACTUALIDAD*/
+
+.parrafoBlog{
+	font-size: 10px;
+	text-align: justify;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	word-spacing: 5px;
+	line-height: 18px;
+	margin-left: 10px;
+	color: #1A5E86;
+}
+.tituloblog{
+		font-size: 20px;
+		color: #1A5E86;
+		text-align: left;
+		margin-bottom: 10px;
+		margin-left: 10px;
+}
+
